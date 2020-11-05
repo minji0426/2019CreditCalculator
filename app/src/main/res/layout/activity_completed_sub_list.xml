@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><!--8번-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:layout_marginBottom="30dip"
+            android:text="수강한 과목"
+            android:textSize="30dip" />
+
+        <Button
+            android:id="@+id/insert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="과목추가"
+            android:onClick="onClick"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전공(핵심)"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <ListView
+            android:id="@+id/list_base_major"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전공(심화)"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <ListView
+            android:id="@+id/list_deepen_major"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="복수전공(핵심)"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <ListView
+            android:id="@+id/list_base_dmajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="복수전공(심화)"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+
+        <ListView
+            android:id="@+id/list_deepen_dmajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="부전공"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <ListView
+            android:id="@+id/list_minor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="교양"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <ListView
+            android:id="@+id/list_cultur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
